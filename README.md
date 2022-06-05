@@ -66,7 +66,7 @@ We can now setup the pgAdmin connection to the server using the credentials prov
 
 <br>
 
-#### Step 4: Test API
+#### Step 5: Send FastAPI Request
 
 We can ensure that the API is working correctly by using the FastAPI Swagger interface by navigating to ```http://127.0.0.1:8000/docs```.
 
