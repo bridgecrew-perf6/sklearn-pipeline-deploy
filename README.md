@@ -50,8 +50,6 @@ Change directory into the ```app``` directory by running the ```cd /app``` comma
 
 First you must build the Docker containers by running ```docker-compose build```. Then the Docker containers can be started by running ```docker-compose up```. You can check that the containers are running by entering ```docker ps -a``` within the terminal. Alternatively, if you have Docker Desktop installed you can see that the ```postgres_db```, ```pgadmin``` and ```app``` Docker containers are running.
 
-![docker_container_status.png](./docs/images/docker_container_status.png)
-
 <br>
 
 #### Step 3: Complete Database Migrations
