@@ -74,7 +74,7 @@ We can ensure that the API is working correctly by using the FastAPI Swagger int
 
 The Swagger interface allows us to send a JSON payload to FastAPI by using a POST request. We can demonstrate how the API responds by sending a JSON payload and inspecting the response.
 
-![test_payload.png](./docs/images/test_payload.png)
+![test_api.png](./docs/images/test_api.png)
 
 <br>
 
