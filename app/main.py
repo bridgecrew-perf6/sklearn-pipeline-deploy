@@ -58,7 +58,9 @@ async def predict(features: StrokeSchema):
             pipeline.predict_proba(features_dataframe)[0].max().item()
         )  # Generate prediction probability using features_dataframe.
     except AttributeError:
-        logger.error("Method predict_proba is not available for selected model architecture.")
+        logger.error(
+            "Method predict_proba is not available for selected model architecture."
+        )
         prediction_probability = None  # Use dummy value.
 
     db_results = StrokeModel(
